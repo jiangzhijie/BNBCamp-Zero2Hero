@@ -9,7 +9,7 @@ contract Token is ERC20{
         _mint(msg.sender, initialSupply);
     }
     
-       function decimals() public pure override returns (uint8) {
+    function decimals() public pure override returns (uint8) {
         return 8;
     }
 
